@@ -1,8 +1,4 @@
-# portfolio
-Portolio Website (milestone project 1)
-# portfolio
-Portolio Website (milestone project 1)
-# My Portfolio
+# Can Guden Portfolio
 Portolio Website (milestone project 1) (Code Institute 2021)
 
 General:
