@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @font-face{ 
 	font-family: 'Fortuna';
-	src: url('../stylesheet/fortuna_regular-fortuna.eot');
-	src: url('../stylesheet/fortuna_regular-fortuna.eot?#iefix') format('embedded-opentype'),
-	     url('../stylesheet/fortuna_regular-fortuna.woff') format('woff'),
-	     url('../stylesheet/fortuna_regular-fortuna.ttf') format('truetype'),
-	     url('../stylesheet/fortuna_regular-fortuna.svg#fortuna') format('svg');
+	src: url('../fonts/fortuna_regular-fortuna.eot');
+	src: url('../fonts/fortuna_regular-fortuna.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/fortuna_regular-fortuna.woff') format('woff'),
+	     url('../fonts/fortuna_regular-fortuna.ttf') format('truetype'),
+	     url('../fonts/fortuna_regular-fortuna.svg#fortuna') format('svg');
 }
 @font-face{ 
 	font-family: 'FortunaB';
-	src: url('../stylesheet/fortuna_bold-fortuna.eot');
-	src: url('../stylesheet/fortuna_bold-fortuna.eot?#iefix') format('embedded-opentype'),
-	     url('../stylesheet/fortuna_bold-fortuna.woff') format('woff'),
-	     url('../stylesheet/fortuna_bold-fortuna.ttf') format('truetype'),
-	     url('../stylesheet/fortuna_bold-fortuna.svg#fortuna') format('svg');
+	src: url('../fonts/fortuna_bold-fortuna.eot');
+	src: url('../fonts/fortuna_bold-fortuna.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/fortuna_bold-fortuna.woff') format('woff'),
+	     url('../fonts/fortuna_bold-fortuna.ttf') format('truetype'),
+	     url('../fonts/fortuna_bold-fortuna.svg#fortuna') format('svg');
 }
   * {
     font-family: "Fortuna", Arial, sans-serif;
