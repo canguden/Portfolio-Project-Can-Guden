@@ -1,136 +1,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@font-face{ 
+@font-face {
 	font-family: 'Fortuna';
 	src: url('../fonts/fortuna_regular-fortuna.eot');
-	src: url('../fonts/fortuna_regular-fortuna.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/fortuna_regular-fortuna.woff') format('woff'),
-	     url('../fonts/fortuna_regular-fortuna.ttf') format('truetype'),
-	     url('../fonts/fortuna_regular-fortuna.svg#fortuna') format('svg');
+	src: url('../fonts/fortuna_regular-fortuna.eot?#iefix') format('embedded-opentype'), url('../fonts/fortuna_regular-fortuna.woff') format('woff'), url('../fonts/fortuna_regular-fortuna.ttf') format('truetype'), url('../fonts/fortuna_regular-fortuna.svg#fortuna') format('svg');
 }
-@font-face{ 
+
+@font-face {
 	font-family: 'FortunaB';
 	src: url('../fonts/fortuna_bold-fortuna.eot');
-	src: url('../fonts/fortuna_bold-fortuna.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/fortuna_bold-fortuna.woff') format('woff'),
-	     url('../fonts/fortuna_bold-fortuna.ttf') format('truetype'),
-	     url('../fonts/fortuna_bold-fortuna.svg#fortuna') format('svg');
+	src: url('../fonts/fortuna_bold-fortuna.eot?#iefix') format('embedded-opentype'), url('../fonts/fortuna_bold-fortuna.woff') format('woff'), url('../fonts/fortuna_bold-fortuna.ttf') format('truetype'), url('../fonts/fortuna_bold-fortuna.svg#fortuna') format('svg');
 }
-  * {
-    font-family: "Fortuna", Arial, sans-serif;
+
+* {
+	font-family: "Fortuna", Arial, sans-serif;
 	padding: 0;
 	margin: 0;
-	zoom: 97%;
-  }
+}
 
-
-  body {
+body {
 	font-family: "Roboto", Arial, sans-serif;
-  }
+}
 
-  /* Navigation Menu */
 
-  a {
+/* Navigation Menu */
+
+a {
 	color: #000;
 	text-decoration: none;
-  }
-  
-  /* header */
-  
-  .header {
+}
+
+
+/* header */
+
+.header {
 	position: fixed;
 	width: 100%;
-	background:white;
+	background: transparent;
 	z-index: 100;
 	height: auto;
-	padding: 0;
-	margin: 0%;
-  }
-  
-  .header ul {
-	margin: 0;
-	padding: 0;
+	top: 0px;
+}
+
+.header ul {
+	margin: 0 auto;
+	padding: 0px 35px;
 	list-style: none;
 	text-align: center;
 	background-color: rgb(255, 255, 255);
 	overflow: hidden;
 	height: 10%;
-  }
-  
-  .header  li a {
+}
+
+.header li a {
 	display: block;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	color: black;
 	font-family: "Fortuna";
-  }
+}
 
-   .header li a:hover {
-	color: rgba(80, 80, 80, 0.911);
-  }
-  
-  
-  .header .logo {
+.header li a:hover {
+	-ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.header .logo {
 	display: block;
 	float: left;
 	align-items: center;
 	text-align: center;
 	justify-content: center;
 	padding: 33px 35px;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	text-decoration: none;
-	color:black;
+	color: black;
 	margin: 0 auto;
+}
 
-  }
-
-  .logo {
-	font-family: "FortunaB", sans-serif;
-	text-transform: uppercase;
+.logo {
+	font-family: "Fortuna", sans-serif;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
 	letter-spacing: 2px;
-  }
+	text-transform: uppercase;
+}
 
-  .logo:hover {
-	color: rgba(80, 80, 80, 0.911);
-  }
-  
-  /* Menu */
-  
-  
-  .header .menu {
+
+/* Menu */
+
+.header .menu {
 	clear: both;
 	max-height: 0;
 	transition: max-height .2s ease-out;
 	height: 100%;
-  }
-  
-  /* menu icon */
-  
-  .header .menu-icon {
+}
+
+
+/* menu icon */
+
+.header .menu-icon {
 	cursor: pointer;
 	display: inline-block;
 	float: right;
-	padding: 33px 10px;
+	padding: 30px 10px;
 	position: relative;
 	user-select: none;
-  }
-  
-  .header .menu-icon .navicon {
+}
+
+.header .menu-icon .navicon {
 	background: rgb(0, 0, 0);
 	display: block;
 	height: 2px;
 	position: relative;
 	transition: background .3s ease-out;
-	width: 18px;
-  }
-  
-  .header .menu-icon .navicon:before,
-  .header .menu-icon .navicon:after {
+	width: 20px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
 	background: rgb(0, 0, 0);
 	content: '';
 	display: block;
@@ -138,348 +130,1088 @@
 	position: absolute;
 	transition: all .4s ease-out;
 	width: 100%;
-  }
+}
 
-  .active {
-	border-bottom: rgba(80, 80, 80, 0.911);
-  }
-  
-  .header .menu-icon .navicon:before {
-	top: 5px;
-  }
-  
-  .header .menu-icon .navicon:after {
-	top: -5px;
-  }
-  
-  /* menu btn */
-  .header .menu-btn {
+
+.header .menu-icon .navicon:before {
+	top: 6px;
+}
+
+.header .menu-icon .navicon:after {
+
+}
+
+
+/* menu btn */
+
+.header .menu-btn {
 	display: none;
-  }
-  
-  /* 48em = 768px */
-  
-  @media (min-width: 960px) {
+}
 
+
+/* 48em = 768px */
+
+@media (min-width: 960px) {
 	.header li {
 		display: inline-block;
 	}
 	.header li a {
 		position: relative;
-	  	padding: 30px 35px;
-	  	font-size: 1.1rem;
+		padding: 30px 15px;
+		font-size: 1.1rem;
 	}
-
 	.header .menu {
-	  	clear: none;
-	  	max-height: none;
-	  	align-items: center;
-	  	text-align: center;
-	  	justify-content: center;
+		clear: none;
+		max-height: none;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
 		float: right;
+		background-color: transparent;
 	}
-
 	.header .menu-icon {
-	  	display: none;
+		display: none;
 	}
-  }
+}
 
-  @media (max-width: 960px) {
-
-	* {
-		zoom: 100%;
-	}
-
+@media (max-width: 960px) {
 	.header .menu-btn {
 		display: none;
-	  }
-	  
-	  .header .menu-btn:checked ~ .menu {
-		max-height: 100vh;
+	}
+	.header .menu-btn:checked~.menu {
+		min-height: 100vh;
 		transition: all .4s ease-out;
 		
-	  }
-
-	  .header .menu-btn:checked ~ .menu-icon .navicon {
-		  background-color: white;
-	  }
-	  
-	  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+	}
+	.header {
+		background-color: white;
+	}
+	.header .menu-btn:checked~.menu-icon .navicon {
+		background-color: white;
+	}
+	.header .menu-btn:checked~.menu-icon .navicon:before {
 		transform: rotate(-45deg);
 		overflow: hidden;
-	  }
-	  
-	  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+	}
+	.header .menu-btn:checked~.menu-icon .navicon:after {
 		transform: rotate(45deg);
 		overflow: hidden;
-	  }
-	  
-	  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-	  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-		  top: 0;
-	  }
-
-	.header .menu-btn:checked ~ .menu {
+	}
+	.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+	.header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+		top: 0;
+	}
+	.header .menu-btn:checked~.menu {
 		min-height: 100vh;
 		transition: all .4s ease-out;
 		overflow: -moz-hidden-unscrollable;
-	  }
-
-	  /* https://stackoverflow.com/questions/55284960/is-possible-to-hide-scrollbar-on-mobile-for-webpage */
-	  ::-webkit-scrollbar {
-			width: 0px;
-			background: transparent; /* make scrollbar transparent */
-			}
-	
-	
-	.header li a  {
-		font-size: 3.8em;
-		line-height: 0.5;
-		margin: 100px 20px;
-		position: relative;
 	}
-
+	/* https://stackoverflow.com/questions/55284960/is-possible-to-hide-scrollbar-on-mobile-for-webpage */
+	 ::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+		/* make scrollbar transparent */
+	}
+	.header li a {
+		font-size: 2.3em;
+		line-height: 0.5;
+		margin-top: 80px;
+		position: relative;
+		top: 50px;
+	}
 	.header .logo {
 		padding: 20px 20px;
 	}
 }
-  /* Navigation End */
-
-  	#scroll-down {
-		  align-items: center;
-		  padding: 50px 10px 10px 10px;
-		  margin-left: 41%;
-		  height: 50px;
-		  width: 10px;
 
 
+/* Navigation End */
+
+#scroll-down {
+	align-items: center;
+	padding: 50px 10px 10px 10px;
+	margin-left: 41%;
+	height: 50px;
+	width: 10px;
 }
+
+
 /* Footer */
-	.container{
-	display: inline-;
-}
-	.email {
-	cursor: pointer;
+
+.container-fluid {
+	display: inline-block;
+	margin-top: 150px;
 }
 
-	.fab {
-	cursor: pointer;
+#container-contact {
+	display: inline-block;
+	margin-top: 0.5px;
+	margin-bottom: 50px;
 }
 
-	.fab {
+.fab {
 	display: inline-block;
 	font-size: 1.1rem;
 	margin: 20px;
 	margin-top: 0%;
+	text-align: center;
+	cursor: pointer;
 }
+
+.fas fa-arrow-up {
+	color: black;
+}
+
+.check-my-work {
+	color: black;
+	text-decoration: none;
+}
+
+
 /* Footer End */
 
-  /* Hero */
 
-	.hero h1{
-		font-family: "Fortuna", sans-serif;
-		letter-spacing: 4px;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		font-size: 4.1rem;
-		font-weight: bolder;
-	}
+/* Hero */
 
-	.ideas {
-		color: grey;
-	}
+.hero h1 {
+	font-family: "Fortuna", sans-serif;
+	letter-spacing: 4px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 3.8rem;
+	font-weight:lighter;
+	margin-top: 150px;
+}
+.hero p {
+	font-family: "Fortuna", sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+	color: rgb(104, 104, 104);
+	letter-spacing: 4px;
+	margin-top: 50px;
+}
 
-	.hero p{
-		font-family: "Fortuna", sans-serif;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		font-size: 1.1rem;
-		color: rgb(121, 121, 121);
-		letter-spacing: 4px;
-	}
+@media only screen and (max-width: 780px) {
 
-	.simple-text {
-		font-size: 1.2rem;
-		color: rgb(0, 0, 0);
-		
-	}
+.hero h1 {
+	align-items: center;
+	text-align: center;
+	font-family: 'FortunaB';
+	padding-bottom: 30px;
+	font-size: 2.1em;
+	margin-top: 150px;
+}
+.hero p {
+	font-family: "Fortuna", sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.9rem;
+	color: rgb(104, 104, 104);
+	letter-spacing: 4px;
+}
+.simple-text {
+	font-size: 1rem;
+	color: rgb(0, 0, 0);
+}
+}
+
+.ideas {
+	color: grey;
+}
+
+.simple-text {
+	font-size: 1.2rem;
+	color: rgb(0, 0, 0);
+}
+
+
 
 /* Hero End */
 
 
 /* Projects */
 
+.banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	cursor: pointer;
+	border-radius: 4%;
+	margin-top: 150px;
+	filter: grayscale(100%);
+}
+
+.banner:hover {
+	filter: grayscale(0%);
+}
+
+
+.banner2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	cursor: pointer;
+	border-radius: 4%;
+	margin-top: 150px;
+	filter: grayscale(100%);
+}
+
+.banner2:hover {
+	filter: grayscale(0%);
+}
+
+
+.banner-3 {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	cursor: pointer;
+	border-radius: 4%;
+	margin-top: 150px;
+}
+
+.banner-4 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border-radius: 4%;
+	margin-top: 75px;
+}
+
+.project-desc {
+	margin-top: 0 auto;
+}
+.column-1 {
+	float: left;
+	width: 50%;
+  }
+  
+  .row-1:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .column-2 {
+	float: left;
+	width: 50%;
+  }
+  
+  .row-2:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+@media only screen and (max-width: 780px) {
 	.banner {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 60%;
+		width: 100%;
 		cursor: pointer;
-		border-radius: 4%;
+		border-radius: 0%;
 	}
-
-	.banner:hover {
-		-webkit-transform: scale(1.03);
-		transform: scale(1.03);
-		-webkit-transition: .3s ease-in-out;
-		transition: .3s ease-in-out;
-	}
-
 	.banner2 {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		width: 60%;
+		width: 100%;
 		cursor: pointer;
-		border-radius: 4%;
+		border-radius: 0%;
 	}
-
-	.banner2:hover {
-		-webkit-transform: scale(1.03);
-		transform: scale(1.03);
-		-webkit-transition: .3s ease-in-out;
-		transition: .3s ease-in-out;
+	.banner-3 {
+		display: block;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		cursor: pointer;
+		border-radius: 0%;
 	}
+}  
 
 
-	.title h3{
-		font-family: "FortunaB", sans-serif;
-		letter-spacing: 2px;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		font-size: 2.3rem;
-		font-weight: bolder;
-		color: black;
-	}
-	
-	.title p{
-		font-family: "Fortuna", sans-serif;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		font-size: 1.1rem;
-		color: rgb(121, 121, 121);
-		letter-spacing: 2px;
-	}
+#specs-rows {
+	margin-top: 100px;
+	list-style: none;
+	align-items: center;
+	text-align: left;
+	justify-content: center;
+}
 
-	/* Projects */
+.fa-check  {
+	margin: 0px 10px 0px 10px;
+}
 
-	.fab {
-		font-size: 1.6rem;
-		margin: 5px;
-		margin-top: 0%;
-	}
+.title h3 {
+	font-family: "FortunaB", sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: black;
+	margin-top: 30px;
+}
 
-	.fa-linkedin {
-		background: transparent;
-		color: #3866ca;
-		text-decoration: none;
-	}
+.title p {
+	font-family: "Fortuna", sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.1rem;
+	color: rgb(121, 121, 121);
+	letter-spacing: 2px;
+}
 
-	.fa-instagram {
-		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-		-webkit-background-clip: text;
-				/* Also define standard property for compatibility */
-				background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
+.title-2 h3 {
+	font-family: "FortunaB", sans-serif;
+	letter-spacing: 2px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: bolder;
+	color: black;
+	margin-top: 75px;
+}
 
-	.fa-github {
-		color: black;
-	}
+.title-2 p {
+	font-family: "Fortuna", sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.1rem;
+	color: rgb(121, 121, 121);
+	letter-spacing: 2px;
+}
+
+.main-grid {
+	justify-content: center;
+	grid-template-columns:repeat(auto-fill, minmax(70px, 400px));
+	align-items: center;
+	display: grid;
+	width: 100vw;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-left: 5px;
+	margin-right: 20px;
+	column-gap: 5px;
+	row-gap: 5px;
+	text-align: center;
+  }
+
+.grid-images {
+	width: 100%;
+	height: 60px;
+	object-fit: contain;
+	align-items: center;
+	text-align: center;
+	display: inline-block;
+	justify-content: space-evenly;
+}
+@media only screen and (max-width: 9480px) {
+
+.main-grid {
+	justify-content: center;
+	grid-template-columns:repeat(auto, minmax(0px, 0px));
+	align-items: center;
+	display: grid;
+	column-gap: 0px;
+	row-gap: 500px;
+	display: inline-flex;
+  }
+
+.grid-images {
+	width: 100%;
+	height: 40px;
+	align-items: center;
+	text-align: center;
+	justify-content: space-evenly;
+}
+}
+
+/* Projects */
+
+.fab {
+	font-size: 1.9rem;
+	margin: 5px;
+	margin-top: 0%;
+}
+
+.fa-linkedin {
+	background: transparent;
+	color: #3866ca;
+	text-decoration: none;
+}
+
+.fa-instagram {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	-webkit-background-clip: text;
+	/* Also define standard property for compatibility */
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.fa-github {
+	color: black;
+}
+
 
 /* font for contacting "Lets" */
-	.lets {
+
+.lets {
+	align-items: center;
+	text-align: center;
+	font-family: 'FortunaB';
+	padding-bottom: 30px;
+	font-size: 2.1em;
+	margin-top: 150px;
+}
+
+.lets-contact {
+	align-items: center;
+	text-align: center;
+	font-family: 'FortunaB';
+	padding-bottom: 30px;
+	font-size: 2.1em;
+	margin-top: 50px;
+}
+.send-email {
+	align-items: center;
+	text-align: center;
+	font-family: 'Fortuna';
+	padding-bottom: 40px;
+	font-size: 1em;
+	margin-top: 80px;
+	justify-content: center;
+}
+
+.email-contact-2 {
+	align-items: center;
+	text-align: center;
+	font-family: 'Fortuna';
+	padding-bottom: 40px;
+}
+
+.email {
+	color: black;
+	text-decoration: none;
+	font-size: 1.3rem;
+}
+
+.email-contact-2:hover {
+	color: black;
+}
+
+.email-contact {
+	cursor: pointer;
+	bottom: 50px;
+	margin-left: 0;
+	color: black;
+	text-decoration: none;
+}
+
+.fab {
+	cursor: pointer;
+	bottom: 50px;
+}
+
+
+
+/* About.html Page */
+
+#about-me-page {
+	background-color: black;
+	color: white;
+}
+
+.header-about {
+	color: white;
+}
+
+.banner-about {
+	display: block;
+	width: 60%;
+	border-radius: 4%;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.about-hello {
+	font-size: 15rem;
+	position: sticky;
+	margin-top: -232px;
+	align-items: center;
+	text-align: center;
+}
+
+.about-p {
+	font-size: 4.1rem;
+	padding-top: 5px;
+	margin-top: -30px;
+}
+
+.btn-download-cv {
+	padding-top: 35px;
+}
+
+.about-title {
+	display: inline;
+	position: absolute;
+	left: 23%;
+	top: 30%;
+	color: white;
+}
+
+.hero > .steve-jobs  {
+	font-size:  40px;
+	margin-top: 10px;
+}
+
+.contact-about {
+	align-items: center;
+	text-align: center;
+	font-family: 'FortunaB';
+	font-size: 2.8rem;
+	padding-bottom: 30px;
+	margin-top: 150px;
+	color: white;
+}
+
+.introduction {
+	font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+.fa-laptop-code {
+	font-size: 35px;
+	margin: 10px;
+}
+
+.fa-wrench {
+	font-size: 35px;
+	margin: 10px;
+}
+
+.fa-pencil-alt {
+	font-size: 35px;
+	margin: 10px;
+}
+
+
+.paragraph-services {
+	margin-top: 10px;
+	font-size: 1.2rem;
+	color: white;
+
+}
+
+.about-socials {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	bottom: 30px;
+	margin-left: 900px;
+}
+
+.about-socials h1:hover {
+	color: white;
+	-ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.email-about {
+	color: white;
+	text-decoration: none;
+	font-size: 1.3rem;
+}
+
+.email-about:hover {
+	color: white;
+}
+
+.github-white > .fa-github {
+	color: white;
+}
+
+.fa-github:hover {
+	-ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+}
+
+.fa-linkedin:hover {
+	-ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 880px) {
+
+	services-about {
+		display: inline-block;
+	}
+
+	.contact-about {
 		align-items: center;
 		text-align: center;
 		font-family: 'FortunaB';
+		font-size: 2.5rem;
 		padding-bottom: 30px;
-		font-family: "Fortuna";
-		font-size: 2.3em;
-
+		margin-top: 150px;
+		color: white;
 	}
 
-	.email {
-		cursor: pointer;
-	}
-
-	.fab {
-		cursor: pointer;
-	}
-
-	/* About.html Page */
-
-	.about-banner {
+	.banner-about {
+		display: block;
 		width: 100%;
+		margin: 0 auto;
 	}
+
+	.about-hello {
+		font-size: 10rem;
+		margin-top: -155px;
+	}
+
+	.about-p {
+		font-size: 1.3rem;
+		display: inline-block;
+		margin-top: 5px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.services {
+		margin-top: 10px;
+		font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+		font-size: 2.1rem;
+		color: white;
+	}
+	
+	.services-section2 {
+		color: white;
+		display: inline-flexbox;
+	}
+	
+	.paragraph-services {
+		margin-top: auto;
+		margin-bottom: auto;
+		font-size: 1.3rem;
+		color: white;
+		margin-left: 25px;
+		margin-right: 25px;
+	
+	}
+	#web-des {
+		margin-top: 30px;
+	}
+
+	#maintenance {
+		margin-top: 30px;
+	}
+}
+
+/* header black about */
+
+.header-about {
+	position: fixed;
+	width: 100%;
+	background: transparent;
+	z-index: 100;
+	height: auto;
+	top: 0px;
+}
+
+.header-about ul {
+	margin: 0;
+	padding: 0px 35px;
+	list-style: none;
+	text-align: center;
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+	height: 10%;
+}
+
+.header-about li a {
+	display: block;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 1.4em;
+	color: rgb(255, 255, 255);
+	font-family: "Fortuna";
+}
+
+.header-about li a:hover {
+	color: white;
+	-ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+}
+
+.header-about .logo-about {
+	display: block;
+	float: left;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 33px 35px;
+	font-size: 1.1rem;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	margin: 0 auto;
+}
+
+.logo-about {
+	font-family: "Fortuna", sans-serif;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+/* Menu */
+
+.header-about .menu {
+	clear: both;
+	max-height: 0;
+	transition: max-height .2s ease-out;
+	height: 100%;
+}
+
+
+/* menu icon */
+
+.header-about .menu-icon {
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	padding: 30px 10px;
+	position: relative;
+	user-select: none;
+}
+
+.header-about .menu-icon .navicon {
+	background: rgb(255, 255, 255);
+	display: block;
+	height: 2px;
+	position: relative;
+	transition: background .3s ease-out;
+	width: 20px;
+}
+
+.header-about .menu-icon .navicon:before,
+.header-about .menu-icon .navicon:after {
+	background: rgb(255, 255, 255);
+	content: '';
+	display: block;
+	height: 100%;
+	position: absolute;
+	transition: all .4s ease-out;
+	width: 100%;
+}
+
+
+.header-about .menu-icon .navicon:before {
+	top: 6px;
+}
+
+.header-about .menu-icon .navicon:after {
+
+}
+
+
+/* menu btn */
+
+.header-about .menu-btn {
+	display: none;
+}
+
+
+/* 48em = 768px */
+
+@media (min-width: 960px) {
+	.header-about li {
+		display: inline-block;
+	}
+	.header-about li a {
+		position: relative;
+		padding: 30px 15px;
+		font-size: 1.1rem;
+	}
+	.header-about .menu {
+		clear: none;
+		max-height: none;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		float: right;
+		background-color: transparent;
+	}
+	.header-about .menu-icon {
+		display: none;
+	}
+}
+
+@media (max-width: 960px) {
+	.header-about .menu-btn {
+		display: none;
+	}
+	.header-about .menu-btn:checked~.menu {
+		min-height: 100vh;
+		transition: all .4s ease-out;
+		
+	}
+	.header-about {
+		background-color: rgb(0, 0, 0);
+	}
+	.header-about .menu-btn:checked~.menu-icon .navicon {
+		background-color: rgb(0, 0, 0);
+	}
+	.header-about .menu-btn:checked~.menu-icon .navicon:before {
+		transform: rotate(-45deg);
+		overflow: hidden;
+	}
+	.header-about .menu-btn:checked~.menu-icon .navicon:after {
+		transform: rotate(45deg);
+		overflow: hidden;
+	}
+	.header-about .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
+	.header-about .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
+		top: 0;
+	}
+	.header-about .menu-btn:checked~.menu {
+		min-height: 100vh;
+		transition: all .4s ease-out;
+		overflow: -moz-hidden-unscrollable;
+	}
+	/* https://stackoverflow.com/questions/55284960/is-possible-to-hide-scrollbar-on-mobile-for-webpage */
+	 ::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+		/* make scrollbar transparent */
+	}
+	.header-about li a {
+		font-size: 2.3em;
+		line-height: 0.5;
+		margin-top: 80px;
+		position: relative;
+		top: 50px;
+	}
+	.header-about .logo-about {
+		padding: 20px 20px;
+	}
+}
+
+
+/* Navigation End */
+
 
 /* Contact.html Page */
 
 .signup-form {
-    margin-top: 50px;
+	margin-top: 150px;
 	position: relative;
-	display: block;
-    color: rgb(0, 0, 0);
-    left: 26%;
-    padding: 30px;
+	display: inline-block;
+	color: rgb(116, 116, 116);
 	text-align: left;
 	justify-content: center;
 	align-items: center;
 	width: 50%;
+	margin-left: 25%;
 }
 
-.signup-form > h1 {
-    color: #000000;
-    margin-bottom: 20px;
+.placeholder-text {
+	font-size: 1.1rem;
+	font-family: "Fortuna";
+}
+
+.signup-form>h1 {
+	color: #000000;
+	margin-bottom: 20px;
 	text-align: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .text-input {
-    background: white;
-    color: #000000;
-    width: 100%;
-    height: 25px;
-	padding: 10px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #000000;
-    border-radius: 2px;
+	color: #000000;
+	width: 100%;
+	height: 25px;
+	margin: 15px 0px 30px 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid rgb(116, 116, 116);
+	outline: none;
+	font-family: 'Fortuna' Arial, Helvetica, sans-serif;
+	font-size: 1.3rem;
 }
 
-.text-input:hover {
-    border-color: #000000;
-}
 
-.join-button {
-    margin-top: 20px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #0d6efd;
-    color: #fafafa;
-	position: relative;
-	align-items: center;
-	left: 40%;
-}
-
-textarea {
+.text-area {
 	width: 100%;
 	height: 150px;
-	padding: 10px;
+	border: none;
+	border-bottom: 1px solid rgb(116, 116, 116);
+	outline: none;
+	padding-top: 20px;
+	font-size: 1.3rem;
 }
 
-.colum-right {
+
+#button-contact {
+	padding: 15px 60px 15px 60px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 780px) {
+
+	.signup-form {
+		margin-top: 150px;
+		position: relative;
+		display: block;
+		color: rgb(116, 116, 116);
+		width: 90%;
+		left: -20%;
+	}
+	
+	.placeholder-text {
+		font-size: 1.1rem;
+		font-family: "Fortuna";
+	}
+	
+	.signup-form>h1 {
+		color: #000000;
+		margin-bottom: 20px;
+		font-family: "FortunaB";
+	}
+	
+	.text-input {
+		background: white;
+		color: #000000;
+		height: 25px;
+		margin: 0px 0px 20px 0px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border: none;
+		border-bottom: 1px solid rgb(116, 116, 116);
+		outline: none;
+	}
+	
+	
+	.text-area {
+		width: 100%;
+		height: 150px;
+		border: none;
+		border-bottom: 1px solid rgb(116, 116, 116);
+		outline: none;
+		padding-top: 20px;
+		font-size: 1.3rem;
+	}
+
+	.lets {
+		font-size: 2rem;
+	}
+
+	.text-center {
+		font-size: 1.2rem;
+	}
+}
+.next {
+	display: block;
+	margin-top: 100px;
+	margin-right: 50px;
 	float: right;
-	padding: 50px 10px 15px 10px;
-	height: 50%;
-	width: 20%;
+	color: rgb(197, 197, 197);
+	text-align: end;
+	text-transform: uppercase;
 }
 
-.colum-left {
+.previous {
+	display: block;
+	margin-top: 100px;
+	margin-left: 50px;
 	float: left;
-	padding: 50px 10px 15px 10px;
-	height: 50%;
-	width: 20%;
+	color: rgb(197, 197, 197);
+	text-align: left;
+	text-transform: uppercase;
+}
+
+
+.next-brand {
+	display: block;
+	margin-top: 150px;
+	margin-right: -90px;
+	float: right;
+	color: black;
+	font-size: 1rem;
+	font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+}
+
+.previous-brand {
+	display: block;
+	margin-top: 150px;
+	margin-left: -175px;
+	float: left;
+	color: black;
+	font-size: 1rem;
+	font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 80px) {
+
+	.next-brand {
+		display: block;
+		margin-top: 140px;
+		margin-right: -55px;
+		float: right;
+		color: black;
+		font-size: 1rem;
+		font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+	}
+		.previous-brand {
+			display: block;
+			margin-top:140px;
+			margin-left: -106px;
+			float: left;
+			color: black;
+			font-size: 1rem;
+			font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+		}
+}
+
+
+#button {
+	padding: 15px 60px 15px 60px;
+}
+
+.footer {
+	margin-bottom: 25px;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.footer {
+	margin-bottom: 25px;
+	text-align: center;
 }
