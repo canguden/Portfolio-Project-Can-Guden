@@ -420,7 +420,9 @@ a {
 		width: 100%;
 		cursor: pointer;
 		border-radius: 0%;
+		filter: grayscale(0%);
 	}
+
 	.banner2 {
 		display: block;
 		margin-left: auto;
@@ -428,7 +430,9 @@ a {
 		width: 100%;
 		cursor: pointer;
 		border-radius: 0%;
+		filter: grayscale(0%);
 	}
+
 	.banner-3 {
 		display: block;
 		margin-top: 50px;
@@ -437,6 +441,7 @@ a {
 		width: 100%;
 		cursor: pointer;
 		border-radius: 0%;
+		filter: grayscale(0%);
 	}
 }  
 
