@@ -157,7 +157,7 @@ a {
 	}
 	.header li a {
 		position: relative;
-		padding: 30px 15px;
+		padding: 30px 25px;
 		font-size: 1.1rem;
 	}
 	.header .menu {
@@ -299,7 +299,7 @@ a {
 .hero h1 {
 	align-items: center;
 	text-align: center;
-	font-family: 'FortunaB';
+	font-family: 'Fortuna';
 	padding-bottom: 30px;
 	font-size: 2.1em;
 	margin-top: 150px;
@@ -380,6 +380,7 @@ a {
 
 .banner-4 {
 	display: block;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
@@ -442,6 +443,14 @@ a {
 		cursor: pointer;
 		border-radius: 0%;
 		filter: grayscale(0%);
+	}
+	.banner-4 {
+		display: block;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		border-radius: 0%;
 	}
 }  
 
@@ -525,6 +534,7 @@ a {
 	text-align: center;
 	display: inline-block;
 	justify-content: space-evenly;
+	margin-top: 50px;
 }
 @media only screen and (max-width: 9480px) {
 
