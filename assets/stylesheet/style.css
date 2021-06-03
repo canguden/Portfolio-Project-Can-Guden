@@ -868,12 +868,12 @@ a {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding: 33px 35px;
+	padding: 20px 50px;
 	font-size: 1.1rem;
 	text-decoration: none;
 	color: rgb(255, 255, 255);
-	margin: 0 auto;
 }
+
 
 .logo-about {
 	font-family: "Fortuna", sans-serif;
@@ -901,7 +901,7 @@ a {
 	cursor: pointer;
 	display: inline-block;
 	float: right;
-	padding: 30px 10px;
+	padding: 30px;
 	position: relative;
 	user-select: none;
 }
@@ -1010,7 +1010,7 @@ a {
 		top: 50px;
 	}
 	.header-about .logo-about {
-		padding: 20px 20px;
+		padding: 20px 50px;
 	}
 }
 
