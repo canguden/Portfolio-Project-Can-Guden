@@ -63,9 +63,9 @@ a {
 }
 
 .header li a:hover {
-	-ms-transform: scale(1.2); 
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2); 
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .header .logo {
@@ -132,14 +132,11 @@ a {
 	width: 100%;
 }
 
-
 .header .menu-icon .navicon:before {
 	top: 6px;
 }
 
-.header .menu-icon .navicon:after {
-
-}
+.header .menu-icon .navicon:after {}
 
 
 /* menu btn */
@@ -181,7 +178,6 @@ a {
 	.header .menu-btn:checked~.menu {
 		min-height: 100vh;
 		transition: all .4s ease-out;
-		
 	}
 	.header {
 		background-color: white;
@@ -280,9 +276,10 @@ a {
 	align-items: center;
 	justify-content: center;
 	font-size: 3.8rem;
-	font-weight:lighter;
+	font-weight: lighter;
 	margin-top: 150px;
 }
+
 .hero p {
 	font-family: "Fortuna", sans-serif;
 	text-align: center;
@@ -294,29 +291,33 @@ a {
 	margin-top: 50px;
 }
 
-@media only screen and (max-width: 780px) {
+.hero>.brand-names {
+	margin-top: 2px;
+	font-size: 2rem;
+}
 
-.hero h1 {
-	align-items: center;
-	text-align: center;
-	font-family: 'Fortuna';
-	padding-bottom: 30px;
-	font-size: 2.1em;
-	margin-top: 150px;
-}
-.hero p {
-	font-family: "Fortuna", sans-serif;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	font-size: 0.9rem;
-	color: rgb(104, 104, 104);
-	letter-spacing: 4px;
-}
-.simple-text {
-	font-size: 1rem;
-	color: rgb(0, 0, 0);
-}
+@media only screen and (max-width: 780px) {
+	.hero h1 {
+		align-items: center;
+		text-align: center;
+		font-family: 'Fortuna';
+		padding-bottom: 30px;
+		font-size: 2.1em;
+		margin-top: 150px;
+	}
+	.hero p {
+		font-family: "Fortuna", sans-serif;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		font-size: 0.9rem;
+		color: rgb(104, 104, 104);
+		letter-spacing: 4px;
+	}
+	.simple-text {
+		font-size: 1rem;
+		color: rgb(0, 0, 0);
+	}
 }
 
 .ideas {
@@ -327,7 +328,6 @@ a {
 	font-size: 1.2rem;
 	color: rgb(0, 0, 0);
 }
-
 
 
 /* Hero End */
@@ -350,7 +350,6 @@ a {
 	filter: grayscale(0%);
 }
 
-
 .banner2 {
 	display: block;
 	margin-left: auto;
@@ -365,7 +364,6 @@ a {
 .banner2:hover {
 	filter: grayscale(0%);
 }
-
 
 .banner-3 {
 	display: block;
@@ -391,27 +389,28 @@ a {
 .project-desc {
 	margin-top: 0 auto;
 }
+
 .column-1 {
 	float: left;
 	width: 50%;
-  }
-  
-  .row-1:after {
+}
+
+.row-1:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
 
-  .column-2 {
+.column-2 {
 	float: left;
 	width: 50%;
-  }
-  
-  .row-2:after {
+}
+
+.row-2:after {
 	content: "";
 	display: table;
 	clear: both;
-  }
+}
 
 @media only screen and (max-width: 780px) {
 	.banner {
@@ -423,7 +422,6 @@ a {
 		border-radius: 0%;
 		filter: grayscale(0%);
 	}
-
 	.banner2 {
 		display: block;
 		margin-left: auto;
@@ -433,7 +431,6 @@ a {
 		border-radius: 0%;
 		filter: grayscale(0%);
 	}
-
 	.banner-3 {
 		display: block;
 		margin-top: 50px;
@@ -452,8 +449,7 @@ a {
 		width: 100%;
 		border-radius: 0%;
 	}
-}  
-
+}
 
 #specs-rows {
 	margin-top: 100px;
@@ -463,7 +459,7 @@ a {
 	justify-content: center;
 }
 
-.fa-check  {
+.fa-check {
 	margin: 0px 10px 0px 10px;
 }
 
@@ -513,7 +509,7 @@ a {
 
 .main-grid {
 	justify-content: center;
-	grid-template-columns:repeat(auto-fill, minmax(70px, 400px));
+	grid-template-columns: repeat(auto-fill, minmax(70px, 400px));
 	align-items: center;
 	display: grid;
 	width: 100vw;
@@ -524,7 +520,7 @@ a {
 	column-gap: 5px;
 	row-gap: 5px;
 	text-align: center;
-  }
+}
 
 .grid-images {
 	width: 100%;
@@ -536,26 +532,26 @@ a {
 	justify-content: space-evenly;
 	margin-top: 50px;
 }
+
 @media only screen and (max-width: 9480px) {
-
-.main-grid {
-	justify-content: center;
-	grid-template-columns:repeat(auto, minmax(0px, 0px));
-	align-items: center;
-	display: grid;
-	column-gap: 0px;
-	row-gap: 500px;
-	display: inline-flex;
-  }
-
-.grid-images {
-	width: 100%;
-	height: 40px;
-	align-items: center;
-	text-align: center;
-	justify-content: space-evenly;
+	.main-grid {
+		justify-content: center;
+		grid-template-columns: repeat(auto, minmax(0px, 0px));
+		align-items: center;
+		display: grid;
+		column-gap: 0px;
+		row-gap: 500px;
+		display: inline-flex;
+	}
+	.grid-images {
+		width: 100%;
+		height: 40px;
+		align-items: center;
+		text-align: center;
+		justify-content: space-evenly;
+	}
 }
-}
+
 
 /* Projects */
 
@@ -603,6 +599,7 @@ a {
 	font-size: 2.1em;
 	margin-top: 50px;
 }
+
 .send-email {
 	align-items: center;
 	text-align: center;
@@ -644,7 +641,6 @@ a {
 }
 
 
-
 /* About.html Page */
 
 #about-me-page {
@@ -663,7 +659,6 @@ a {
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 .about-hello {
@@ -692,8 +687,8 @@ a {
 	color: white;
 }
 
-.hero > .steve-jobs  {
-	font-size:  40px;
+.hero>.steve-jobs {
+	font-size: 40px;
 	margin-top: 10px;
 }
 
@@ -727,12 +722,10 @@ a {
 	margin: 10px;
 }
 
-
 .paragraph-services {
 	margin-top: 10px;
 	font-size: 1.2rem;
 	color: white;
-
 }
 
 .about-socials {
@@ -745,9 +738,9 @@ a {
 
 .about-socials h1:hover {
 	color: white;
-	-ms-transform: scale(1.2); 
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2); 
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .email-about {
@@ -760,29 +753,26 @@ a {
 	color: white;
 }
 
-.github-white > .fa-github {
+.github-white>.fa-github {
 	color: white;
 }
 
 .fa-github:hover {
-	-ms-transform: scale(1.2); 
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .fa-linkedin:hover {
-	-ms-transform: scale(1.2); 
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
-
 @media only screen and (max-width: 880px) {
-
 	services-about {
 		display: inline-block;
 	}
-
 	.contact-about {
 		align-items: center;
 		text-align: center;
@@ -792,18 +782,15 @@ a {
 		margin-top: 150px;
 		color: white;
 	}
-
 	.banner-about {
 		display: block;
 		width: 100%;
-		margin: 0 auto;
+		margin: 0;
 	}
-
 	.about-hello {
 		font-size: 10rem;
 		margin-top: -155px;
 	}
-
 	.about-p {
 		font-size: 1.3rem;
 		display: inline-block;
@@ -817,12 +804,10 @@ a {
 		font-size: 2.1rem;
 		color: white;
 	}
-	
 	.services-section2 {
 		color: white;
 		display: inline-flexbox;
 	}
-	
 	.paragraph-services {
 		margin-top: auto;
 		margin-bottom: auto;
@@ -830,23 +815,21 @@ a {
 		color: white;
 		margin-left: 25px;
 		margin-right: 25px;
-	
 	}
 	#web-des {
 		margin-top: 30px;
 	}
-
 	#maintenance {
 		margin-top: 30px;
 	}
 }
+
 
 /* header black about */
 
 .header-about {
 	position: fixed;
 	width: 100%;
-	background: transparent;
 	z-index: 100;
 	height: auto;
 	top: 0px;
@@ -875,9 +858,9 @@ a {
 
 .header-about li a:hover {
 	color: white;
-	-ms-transform: scale(1.2); 
-    -webkit-transform: scale(1.2); 
-    transform: scale(1.2); 
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .header-about .logo-about {
@@ -944,14 +927,11 @@ a {
 	width: 100%;
 }
 
-
 .header-about .menu-icon .navicon:before {
 	top: 6px;
 }
 
-.header-about .menu-icon .navicon:after {
-
-}
+.header-about .menu-icon .navicon:after {}
 
 
 /* menu btn */
@@ -993,7 +973,6 @@ a {
 	.header-about .menu-btn:checked~.menu {
 		min-height: 100vh;
 		transition: all .4s ease-out;
-		
 	}
 	.header-about {
 		background-color: rgb(0, 0, 0);
@@ -1081,7 +1060,6 @@ a {
 	font-size: 1.3rem;
 }
 
-
 .text-area {
 	width: 100%;
 	height: 150px;
@@ -1092,7 +1070,6 @@ a {
 	font-size: 1.3rem;
 }
 
-
 #button-contact {
 	padding: 15px 60px 15px 60px;
 	margin-top: 20px;
@@ -1100,7 +1077,6 @@ a {
 }
 
 @media only screen and (max-width: 780px) {
-
 	.signup-form {
 		margin-top: 150px;
 		position: relative;
@@ -1109,18 +1085,15 @@ a {
 		width: 90%;
 		left: -20%;
 	}
-	
 	.placeholder-text {
 		font-size: 1.1rem;
 		font-family: "Fortuna";
 	}
-	
 	.signup-form>h1 {
 		color: #000000;
 		margin-bottom: 20px;
 		font-family: "FortunaB";
 	}
-	
 	.text-input {
 		background: white;
 		color: #000000;
@@ -1132,8 +1105,6 @@ a {
 		border-bottom: 1px solid rgb(116, 116, 116);
 		outline: none;
 	}
-	
-	
 	.text-area {
 		width: 100%;
 		height: 150px;
@@ -1143,15 +1114,14 @@ a {
 		padding-top: 20px;
 		font-size: 1.3rem;
 	}
-
 	.lets {
 		font-size: 2rem;
 	}
-
 	.text-center {
 		font-size: 1.2rem;
 	}
 }
+
 .next {
 	display: block;
 	margin-top: 100px;
@@ -1171,7 +1141,6 @@ a {
 	text-align: left;
 	text-transform: uppercase;
 }
-
 
 .next-brand {
 	display: block;
@@ -1194,7 +1163,6 @@ a {
 }
 
 @media only screen and (min-width: 80px) {
-
 	.next-brand {
 		display: block;
 		margin-top: 140px;
@@ -1204,17 +1172,16 @@ a {
 		font-size: 1rem;
 		font-family: 'FortunaB', Arial, Helvetica, sans-serif;
 	}
-		.previous-brand {
-			display: block;
-			margin-top:140px;
-			margin-left: -106px;
-			float: left;
-			color: black;
-			font-size: 1rem;
-			font-family: 'FortunaB', Arial, Helvetica, sans-serif;
-		}
+	.previous-brand {
+		display: block;
+		margin-top: 140px;
+		margin-left: -106px;
+		float: left;
+		color: black;
+		font-size: 1rem;
+		font-family: 'FortunaB', Arial, Helvetica, sans-serif;
+	}
 }
-
 
 #button {
 	padding: 15px 60px 15px 60px;
