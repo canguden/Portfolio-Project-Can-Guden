@@ -74,7 +74,7 @@ a {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding: 33px 35px;
+	padding: 30px 30px;
 	font-size: 1.1rem;
 	text-decoration: none;
 	color: black;
@@ -868,7 +868,7 @@ a {
 	align-items: center;
 	text-align: center;
 	justify-content: center;
-	padding: 20px 50px;
+	padding: 30px 30px;
 	font-size: 1.1rem;
 	text-decoration: none;
 	color: rgb(255, 255, 255);
@@ -948,7 +948,7 @@ a {
 	}
 	.header-about li a {
 		position: relative;
-		padding: 30px 15px;
+		padding: 30px 25px;
 		font-size: 1.1rem;
 	}
 	.header-about .menu {
