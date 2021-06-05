@@ -1,22 +1,32 @@
-# Code Institute Milestone Project 1
-- Creating my first website
-## Portfolio Website (https://github.com/canguden/portfoliocan)
+# Portfolio Website (https://github.com/canguden/portfoliocan)
 
 ## My Portfolio
 
-Created a portfolio website using the Apple website deisgn as inspiration.
+Created a portfolio website using the Apple website design as inspiration.
+
+## Note
+- Everything on the website is fictional and used for study purposes only.
 
 ## Description
 
-On my portfolio people can access my work, who i am and what i do.
+On my portfolio people can access my work, who i am and what i do and potentially becoming partners or creating job opportunities.
 
 ### Languages 
 - [HTML5] Structure of the Website
 - [CSS3] Styling of the website
 - [JavaScript] Only used for the hamburger menu on mobile
 
-# Note
-- Everything on the website is fictional and used for study purposes only
+## Technologies
+The technologies used to build this website are the following
+
+- [VS code](https://www.code.visualstudio.com) IDE for all code editing.
+- [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
+- [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
+- [Font Awesome](https://fontawesome.com/start) for all website icons.
+
+### Wireframes
+
+* Wireframes are found in portfolio/assets/images/
 
 ### Landing Page
 
@@ -50,10 +60,28 @@ On my portfolio people can access my work, who i am and what i do.
 * Email
 * Social links
 
-## Help
+### Validators
+- User story wise testing
+- Cross browser testing
+- Different screen testing
 
-* My about-page on mobile view has a black space and makes it possible to scroll to the right side where there is no content, which i cannot figure out why.
+### Fixed Bugs
+
+* My about-page on mobile view has a black space and makes it possible to scroll to the right side where there is no content, which i cannot figure out why. Fixed with margin problem in the footer section.
+
+### Unfixed Bugs
+
+* At the Work-Page, under the header Top Clients the grid of brands in mobile view stacks up when viewed in Github, but in the browser from the computer is shows it horizontally how i want it. Cant fix this issue.
+
+### Hosting Platform
+The website is hosted on 
+- [GitHub Pages](https://pages.github.com/) and can be viewed [here](https://github.com/canguden/portfoliocan))
 
 
-## Special Thanks
+### Repository
+This project repository is hosted on  
+- [GitHub](https://github.com/) - you can find it at [this link](https://github.com/canguden/portfoliocan.git)
+
+
+### Special Thanks
 - Akshat Garg, Mentor, Codeinstitute [@akshatnitd](https://github.com/akshatnitd)
