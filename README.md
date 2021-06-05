@@ -20,7 +20,6 @@ On my portfolio people can access my work, who i am and what i do and potentiall
 The technologies used to build this website are the following
 
 - [VS code](https://www.code.visualstudio.com) IDE for all code editing.
-- [Pixabay](https://pixabay.com/) for the image used in the Favicons. 
 - [TinyPNG](https://tinypng.com/) for compressing the image downloaded from Pixabay to decrease load times of the website.
 - [Font Awesome](https://fontawesome.com/start) for all website icons.
 
