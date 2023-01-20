@@ -1,4 +1,4 @@
-# Portfolio Website (https://canguden.github.io/portfoliocan/)
+# Portfolio Website https://canguden.github.io/portfoliocan/
 
 ## My Portfolio
 
